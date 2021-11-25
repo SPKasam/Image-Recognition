@@ -15,10 +15,11 @@
 		D8C22E992747F499001D64E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C22E972747F499001D64E9 /* LaunchScreen.storyboard */; };
 		D8C22EA12747F5C7001D64E9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D8C22EA02747F5C7001D64E9 /* Inceptionv3.mlmodel */; };
 		D8C22EA327480DD7001D64E9 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D8C22EA227480DD7001D64E9 /* MobileNetV2.mlmodel */; };
+		D8DFE0A827504B0B00715E7F /* MyPeople.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D8DFE0A727504B0A00715E7F /* MyPeople.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8C22E892747F497001D64E9 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C22E892747F497001D64E9 /* FaceAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C22E8C2747F497001D64E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8C22E8E2747F497001D64E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D8C22E902747F497001D64E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		D8C22E9A2747F499001D64E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8C22EA02747F5C7001D64E9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		D8C22EA227480DD7001D64E9 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		D8DFE0A727504B0A00715E7F /* MyPeople.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyPeople.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 		D8C22E802747F497001D64E9 = {
 			isa = PBXGroup;
 			children = (
-				D8C22E8B2747F497001D64E9 /* SeeFood */,
+				D8C22E8B2747F497001D64E9 /* FaceAI */,
 				D8C22E8A2747F497001D64E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +54,12 @@
 		D8C22E8A2747F497001D64E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8C22E892747F497001D64E9 /* SeeFood.app */,
+				D8C22E892747F497001D64E9 /* FaceAI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8C22E8B2747F497001D64E9 /* SeeFood */ = {
+		D8C22E8B2747F497001D64E9 /* FaceAI */ = {
 			isa = PBXGroup;
 			children = (
 				D8C22E8C2747F497001D64E9 /* AppDelegate.swift */,
@@ -66,19 +68,20 @@
 				D8C22E922747F497001D64E9 /* Main.storyboard */,
 				D8C22EA02747F5C7001D64E9 /* Inceptionv3.mlmodel */,
 				D8C22EA227480DD7001D64E9 /* MobileNetV2.mlmodel */,
+				D8DFE0A727504B0A00715E7F /* MyPeople.mlmodel */,
 				D8C22E952747F499001D64E9 /* Assets.xcassets */,
 				D8C22E972747F499001D64E9 /* LaunchScreen.storyboard */,
 				D8C22E9A2747F499001D64E9 /* Info.plist */,
 			);
-			path = SeeFood;
+			path = FaceAI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8C22E882747F497001D64E9 /* SeeFood */ = {
+		D8C22E882747F497001D64E9 /* FaceAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8C22E9D2747F499001D64E9 /* Build configuration list for PBXNativeTarget "SeeFood" */;
+			buildConfigurationList = D8C22E9D2747F499001D64E9 /* Build configuration list for PBXNativeTarget "FaceAI" */;
 			buildPhases = (
 				D8C22E852747F497001D64E9 /* Sources */,
 				D8C22E862747F497001D64E9 /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = SeeFood;
+			name = FaceAI;
 			productName = SeeFood;
-			productReference = D8C22E892747F497001D64E9 /* SeeFood.app */;
+			productReference = D8C22E892747F497001D64E9 /* FaceAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8C22E842747F497001D64E9 /* Build configuration list for PBXProject "SeeFood" */;
+			buildConfigurationList = D8C22E842747F497001D64E9 /* Build configuration list for PBXProject "FaceAI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8C22E882747F497001D64E9 /* SeeFood */,
+				D8C22E882747F497001D64E9 /* FaceAI */,
 			);
 		};
 /* End PBXProject section */
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8C22E912747F497001D64E9 /* ViewController.swift in Sources */,
+				D8DFE0A827504B0B00715E7F /* MyPeople.mlmodel in Sources */,
 				D8C22EA12747F5C7001D64E9 /* Inceptionv3.mlmodel in Sources */,
 				D8C22E8D2747F497001D64E9 /* AppDelegate.swift in Sources */,
 				D8C22EA327480DD7001D64E9 /* MobileNetV2.mlmodel in Sources */,
@@ -299,8 +303,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78JL3ANQKP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SeeFood/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SeeFood;
+				INFOPLIST_FILE = FaceAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FaceAI;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -311,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.saikasam.SeaFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saikasam.FaceAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,8 +332,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78JL3ANQKP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SeeFood/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SeeFood;
+				INFOPLIST_FILE = FaceAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FaceAI;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -340,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.saikasam.SeaFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saikasam.FaceAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,7 +355,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8C22E842747F497001D64E9 /* Build configuration list for PBXProject "SeeFood" */ = {
+		D8C22E842747F497001D64E9 /* Build configuration list for PBXProject "FaceAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8C22E9B2747F499001D64E9 /* Debug */,
@@ -360,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8C22E9D2747F499001D64E9 /* Build configuration list for PBXNativeTarget "SeeFood" */ = {
+		D8C22E9D2747F499001D64E9 /* Build configuration list for PBXNativeTarget "FaceAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8C22E9E2747F499001D64E9 /* Debug */,
