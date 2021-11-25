@@ -41,7 +41,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     func detect(image : CIImage){
-        guard let model = try? VNCoreMLModel(for: MobileNetV2().model) else{
+        guard let model = try? VNCoreMLModel(for: Me_Brother().model) else{
             fatalError("Loading CoreML Model Failed")
         }
         
